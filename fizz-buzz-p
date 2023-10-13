@@ -1,0 +1,15 @@
+use * from @std/io
+
+Range range = 1..100
+
+every int n in range {
+    if n % 3 == 0 and n % 5 == 0 {
+        writeln("FizzBuzz")
+    } else if n % 3 == 0 {
+        writeln("Fizz")
+    } else if n % 5 == 0 {
+        writeln("Buzz")
+    } else {
+        writeln(n)
+    }
+}
