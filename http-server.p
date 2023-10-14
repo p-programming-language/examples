@@ -1,5 +1,5 @@
 use Server from @http
-use * from @std/io
+use * from @std.io
 
 any server = new Server
 void fn handle(any req, any res) {

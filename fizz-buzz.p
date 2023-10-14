@@ -1,4 +1,4 @@
-use * from @std/io
+use * from @std.io
 
 Range range = 1..100
 

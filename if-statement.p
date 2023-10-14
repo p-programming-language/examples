@@ -1,4 +1,4 @@
-use writeln from @std/io
+use writeln from @std.io
 
 int age = 18
 string name = "John"

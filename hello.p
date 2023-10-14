@@ -1,3 +1,3 @@
-use writeln from @std/io
+use writeln from @std.io
 
 writeln("Hello, Plang!")
